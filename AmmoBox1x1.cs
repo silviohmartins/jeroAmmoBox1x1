@@ -45,7 +45,7 @@ public class AmmoBox1x1(ISptLogger<AmmoBox1x1> logger, DatabaseServer databaseSe
             }
         }
 
-        logger.Info($"[JERO] Ammo Boxes adjusted {ammoBox}!");
+        logger.Info($"[JERO] {ammoBox} ammo boxes adjusted!");
         return Task.CompletedTask;
     }
 }
