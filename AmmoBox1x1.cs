@@ -7,7 +7,7 @@ using SPTarkov.Server.Core.Servers;
 
 namespace jeroAmmoBox1x1;
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 10)]
 public class AmmoBox1x1(ISptLogger<AmmoBox1x1> logger, DatabaseServer databaseServer) : IOnLoad
 {
     // Ammo Box Parent ID
