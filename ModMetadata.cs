@@ -2,7 +2,7 @@
 using Range = SemanticVersioning.Range;
 using Version = SemanticVersioning.Version;
 
-namespace SlimmerMagazines;
+namespace jeroAmmoBox1x1;
 
 public record ModMetadata : AbstractModMetadata
 {
@@ -11,7 +11,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Author { get; init; } = "jero";
     public override List<string>? Contributors { get; init; }
     public override Version Version { get; init; } = new("1.0.0");
-    public override Range SptVersion { get; init; } = new("~4.0.1");
+    public override Range SptVersion { get; init; } = new("~4.0.3");
     public override List<string>? Incompatibilities { get; init; }
     public override Dictionary<string, Range>? ModDependencies { get; init; }
     public override string? Url { get; init; }
